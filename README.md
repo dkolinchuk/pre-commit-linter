@@ -23,7 +23,7 @@ Update your `composer.json` by adding the code below to `repositories` property 
 
         {
             "type": "vcs",
-            "url": "git@github.com:KupnoH/pre-commit-linter.git",
+            "url": "git@github.com:domaalex/pre-commit-linter.git",
         }
 
 add `scripts-dev` property to your `composer.json` file and paste the script below:
@@ -31,7 +31,7 @@ add `scripts-dev` property to your `composer.json` file and paste the script bel
 
     "scripts-dev": {
         "post-install-cmd": [
-            "sh ./vendor/ailyin/pre-commit-linter/scripts/setup.sh"
+            "sh ./vendor/adomasevich/pre-commit-linter/scripts/setup.sh"
         ]
     },
 
@@ -39,9 +39,13 @@ This command will run after composer install command and install all necessary s
 
 after executing the steps above run the command below:
 
-`composer require --dev ailyin/pre-commit-linter`
+`composer require --dev adomasevich/pre-commit-linter`
 
-This command will install package `ailyin/pre-commit-linter` from repository `git@github.com:KupnoH/pre-commit-linter.git` and all the necessary dependencies.
+If you are experiencing problems with path(OS Windows(TODO: add explanations here)) use the following command(It will install package from branch `da_issue`:
+
+`composer require --dev adomasevich/pre-commit-linter:dev-da_issue`
+
+This command will install package `adomasevich/pre-commit-linter` from repository `git@github.com:KupnoH/pre-commit-linter.git` and all the necessary dependencies.
 
 
 How to use
