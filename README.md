@@ -23,7 +23,7 @@ Update your `composer.json` by adding the code below to `repositories` property 
 
         {
             "type": "vcs",
-            "url": "git@github.com:KupnoH/pre-commit-linter.git",
+            "url": "git@github.com:domaalex/pre-commit-linter.git",
         }
 
 add `scripts-dev` property to your `composer.json` file and paste the script below:
