@@ -63,7 +63,7 @@ then
 #      echo "Fix the error before commit."
 #      exit 1
 #    fi
-  done
+#  done
 
 fi
 
