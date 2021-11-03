@@ -11,8 +11,8 @@ TARGET_DP=../../../../../drupal/coder/coder_sniffer/DrupalPractice
 LINK_NAME=vendor/squizlabs/php_codesniffer/src/Standards/Drupal
 LINK_NAME_DP=vendor/squizlabs/php_codesniffer/src/Standards/DrupalPractice
 # Link folder.
-LINK_FOLDER=/vendor/squizlabs/php_codesniffer
-PACKAGE_FOLDER=/vendor/adomasevich/pre-commit-linter
+LINK_FOLDER=vendor/squizlabs/php_codesniffer
+PACKAGE_FOLDER=vendor/adomasevich/pre-commit-linter
 
 
 if [ -d "$LINK_FOLDER" ]; then
